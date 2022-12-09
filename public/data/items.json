@@ -1,0 +1,67 @@
+{
+  "itemData": [
+    {
+      "id": 0,
+      "title": "경남한신아파트 인테리어 포트폴리오0",
+      "floorSpace": 24,
+      "price": 4000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    },
+    {
+      "id": 1,
+      "title": "경남한신아파트 인테리어 포트폴리오1",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "경남한신아파트 인테리어 포트폴리오2",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "경남한신아파트 인테리어 포트폴리오3",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+    ,{
+      "id": 4,
+      "title": "경남한신아파트 인테리어 포트폴리오4",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+  ,{
+      "id": 4,
+      "title": "경남한신아파트 인테리어 포트폴리오4",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+  ,{
+      "id": 4,
+      "title": "경남한신아파트 인테리어 포트폴리오4",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+  ,{
+      "id": 4,
+      "title": "경남한신아파트 인테리어 포트폴리오4",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+  ,{
+      "id": 4,
+      "title": "경남한신아파트 인테리어 포트폴리오4",
+      "floorSpace": 36,
+      "price": 3000,
+      "image": "https://sonsu-awsbucket-1.s3.ap-northeast-2.amazonaws.com/%EA%B2%BD%EB%82%A8%ED%95%9C%EC%8B%A0%EC%95%84%ED%8C%8C%ED%8A%B8+%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4+(%EB%B0%94%EB%8B%A5%EC%A0%9C%EC%99%B8)/LivingRoom2.jpg"
+    }
+  ]
+}
