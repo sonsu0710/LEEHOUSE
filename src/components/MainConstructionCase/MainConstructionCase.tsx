@@ -14,26 +14,35 @@ import axios from "axios";
 
 
 interface Info {
-    // itemData: { [index: string]: string }[];
-    itemData: {
-        id: number,
-        title: string,
-        floorSpace: number,
-        price: number,
-        image: string
-    }[];
+
+    id: number;
+    title: string;
+    floorSpace: number;
+    price: number;
+    image: string;
+
+
+    // itemData: {
+    //     id: number,
+    //     title: string,
+    //     floorSpace: number,
+    //     price: number,
+    //     image: string
+    // }[];
 }
 
 function MainConstructionCase() {
 
     // let arr = new Array(6).fill(0);
 
-    const [items, setItems] = useState<Info>();
+    const [items, setItems] = useState<Info[]>([]);
     useEffect(() => {
         axios
             .get('./data/items.json')
             .then((res) => {
-                setItems(res.data);
+                let data = res.data.itemData;
+                console.log(data);
+                setItems(data);
             })
             .catch((err) => {
                 console.log(err);
@@ -53,7 +62,7 @@ function MainConstructionCase() {
             </Tab>
             <ItemContainer>
                 {
-                    items ? items.itemData.map((item, idx) => {
+                    items ? items.map((item, idx) => {
                         return (
                             <Item key={idx}>
                                 <ItemImg

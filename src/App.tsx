@@ -7,7 +7,6 @@ import MainConstructionCase from "./components/MainConstructionCase/MainConstruc
 import {MainAbout} from "./components/MainAbout/MainAbout";
 import {ReservationInfo} from "./components/ReservationInfo/ReservationInfo";
 import {Footer} from "./components/Footer/Footer";
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 function App() {
 
