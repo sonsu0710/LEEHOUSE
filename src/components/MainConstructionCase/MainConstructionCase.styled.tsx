@@ -50,9 +50,7 @@ const Item = styled.div`
   margin-bottom: 50px;
   width: 30%;
   height: 40vh;
-  //border: solid 1px black;
   border-radius: 20px;
-  //background-color: aquamarine;
   overflow: hidden;
 `
 
@@ -65,6 +63,7 @@ const ItemImg = styled.img`
   transition: 0.2s all linear;
   &:hover {
     transform: scale(1.05);
+    cursor: pointer;
   }
 `
 
@@ -111,6 +110,8 @@ const SeeMoreBtn = styled.button`
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
+
+  cursor: pointer;
 `
 
 export {Container, Title, Tab, TabMenu, ItemContainer, Item, ItemImg, ItemContentBox, ItemTitle, ItemTypes, ItemPrice, SeeMoreBtn}
