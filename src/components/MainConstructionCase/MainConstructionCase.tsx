@@ -33,8 +33,6 @@ interface Info {
 
 function MainConstructionCase() {
 
-    // let arr = new Array(6).fill(0);
-
     const [items, setItems] = useState<Info[]>([]);
     useEffect(() => {
         axios
@@ -65,8 +63,7 @@ function MainConstructionCase() {
                     items ? items.map((item, idx) => {
                         return (
                             <Item key={idx}>
-                                <ItemImg
-                                    src={item.image}/>
+                                <ItemImg src={item.image}/>
                                 <ItemContentBox>
                                     <ItemTitle>{item.title} <span>{item.floorSpace}평</span></ItemTitle>
                                     <ItemTypes>욕실, 싱크대, 타일, 조명, 도배</ItemTypes>

@@ -53,7 +53,7 @@ const Item = styled.div`
   //border: solid 1px black;
   border-radius: 20px;
   //background-color: aquamarine;
-  
+  overflow: hidden;
 `
 
 const ItemImg = styled.img`
@@ -61,6 +61,11 @@ const ItemImg = styled.img`
   height: 60%;
   background-position: center;
   border-radius: 20px;
+
+  transition: 0.2s all linear;
+  &:hover {
+    transform: scale(1.05);
+  }
 `
 
 const ItemContentBox = styled.div`
