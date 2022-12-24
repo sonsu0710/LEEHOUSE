@@ -46,9 +46,14 @@ const ItemContainer = styled.div`
 const Item = styled.div`
   margin-bottom: 50px;
   width: 30%;
-  height: 45vh;
+  height: 47vh;
   border-radius: 20px;
+  border: 1px solid inherit;
   overflow: hidden;
+
+  box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.41);
+  -webkit-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.41);
+  -moz-box-shadow: 10px 10px 13px -3px rgba(0,0,0,0.41);
 `
 
 const ItemImg = styled.img`

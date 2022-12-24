@@ -61,17 +61,22 @@ function MainConstructionCase() {
             <ItemContainer>
                 {
                     items ? items.map((item, idx) => {
-                        return (
-                            <Item key={idx}>
-                                <ItemImg src={item.image}/>
-                                <ItemContentBox>
-                                    <ItemTitle>{item.title} <span>{item.floorSpace}평</span></ItemTitle>
-                                    <ItemTypes>욕실, 싱크대, 타일, 조명, 도배</ItemTypes>
-                                    <ItemPrice>{item.price} <span>만원</span></ItemPrice>
-                                </ItemContentBox>
-                            </Item>
-                        )
-                    }) : undefined
+                        if (idx <= 8) {
+                            return (
+                                <Item key={item.id}>
+                                    <ItemImg src={item.image}/>
+                                    <ItemContentBox>
+                                        <ItemTitle>{item.title} <span>{item.floorSpace}평</span></ItemTitle>
+                                        <ItemTypes>욕실, 싱크대, 타일, 조명, 도배</ItemTypes>
+                                        <ItemPrice>{item.price} <span>만원</span></ItemPrice>
+                                    </ItemContentBox>
+                                </Item>
+                            )
+                        }
+                        else {
+                            return null;
+                        }
+                    }) : null
                 }
                 <SeeMoreBtn>10평대 인테리어 더보기</SeeMoreBtn>
             </ItemContainer>
