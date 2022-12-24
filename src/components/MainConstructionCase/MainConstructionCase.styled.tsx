@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  //height: 1200px;
-  
   border-bottom: solid 1px #ddd;
   margin-bottom: 50px;
 `
@@ -39,7 +37,6 @@ const TabMenu = styled.div`
 const ItemContainer = styled.div`
   margin-top: 50px;
   width: 100%;
-  //height: 100vh;
   
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +46,7 @@ const ItemContainer = styled.div`
 const Item = styled.div`
   margin-bottom: 50px;
   width: 30%;
-  height: 40vh;
+  height: 45vh;
   border-radius: 20px;
   overflow: hidden;
 `

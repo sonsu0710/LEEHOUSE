@@ -36,7 +36,7 @@ function MainConstructionCase() {
     const [items, setItems] = useState<Info[]>([]);
     useEffect(() => {
         axios
-            .get('./data/items.json')
+            .get('https://my-json-server.typicode.com/sonsu0710/LEEHOUSE_DB/db')
             .then((res) => {
                 let data = res.data.itemData;
                 console.log(data);
