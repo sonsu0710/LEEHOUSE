@@ -104,8 +104,10 @@ const SeeMoreBtn = styled.button`
   
   font-size: 18px;
   
-  border: solid 1px black;
+  border: solid 1px #ddd;
   border-radius: 8px;
+  background: #ffffff;
+  rotate: 0.03deg;
   
   margin-right: auto;
   margin-left: auto;
